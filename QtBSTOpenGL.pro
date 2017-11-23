@@ -6,8 +6,10 @@
 
 QT       += core gui opengl
 
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
 #LIBS += -lGL -lGLU -lglut -lfreetype -lftgl
-LIBS += -lGL -lGLU -lglut
+LIBS += -lGL -lGLU -lglut -lfreetype -lftgl
 
 TARGET = QtBSTOpenGL
 TEMPLATE = app
